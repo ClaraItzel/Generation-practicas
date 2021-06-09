@@ -1,0 +1,24 @@
+h1{
+    color: royalblue;
+    text-align: center;
+}
+div{
+    height: 500px;
+    width: 400px;
+    background-color: salmon;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    
+}
+.uno{
+    background-image: url(../img/r11.jpg);
+    background-repeat: round;
+}
+p{
+    font-size: 50px;
+    font-weight: 700;    font-style: italic;
+    text-decoration: underline rebeccapurple;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
