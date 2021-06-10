@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Formularios</title>
+</head>
+<body>
+    <h1>Formularios y tablas</h1>
+    <table border="1">
+        <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+
+        </tr>
+        <tr>
+            <td>Curso de Js</td>
+            <td>Curso de Bootstrap</td>
+            <td>Curso Java</td>
+            <td>Curso Springboot</td>
+            <td>Curso HTML</td>
+        </tr>
+        <tr>
+            <td>Curso de Hibernate</td>
+            <td>Curso de Ajax</td>
+            <td>Curso Php</td>
+            <td>Curso Laravel</td>
+            <td>Curso Symphomy</td>
+        </tr>
+        <tr>
+            <td>Curso de Typescript</td>
+            <td>Curso de Phyton</td>
+            <td>Curso Vulma</td>
+            <td>Curso CSS</td>
+            <td>Curso MySQL</td>
+        </tr>
+        <tr>
+            <td>Curso de React</td>
+            <td>Curso de Vue.js</td>
+            <td>Curso Node.JS</td>
+            <td>Curso GIT</td>
+            <td>Curso Postgres</td>
+        </tr>
+    </table>
+    <hr>
+
+    <form >
+        <h3>Registrate</h3>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Ej. Clara Itzel" required>
+        <br>
+        <label for="correo">E-mail</label>
+        <input type="email" name="correo" placeholder="Ej. correo@correo.com" required>
+        <br>
+        <label for="psw">Password</label>
+        <input type="password" name="psw">
+        <br>
+        <select name="meses" id="">
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+        </select>
+        <br>
+            <input type="radio" name="color" value="rojo">
+            <label for="color">Rojo</label>
+            <input type="radio" name="color" value="verde">
+            <label for="color">Verde</label>
+            <input type="radio" name="color" value="azul">
+            <label for="color">Azul</label>
+            <input type="radio" name="color" value="amarillo">
+            <label for="color">Amarillo</label>
+            <input type="radio" name="color" value="naranja">
+            <label for="color">Naranja</label>
+        <br>
+        <textarea name="muchotexto" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Guardar">
+    </form>
+
+
+</body>
+</html>
